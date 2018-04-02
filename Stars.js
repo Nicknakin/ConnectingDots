@@ -28,9 +28,7 @@ function onClick(e){
 
 function onDrag(e){
   if(move){
-    console.time('drag');
     drag(e.clientX, e.clientY);
-    console.timeEnd('drag');
   }
 }
 
