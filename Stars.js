@@ -1,4 +1,6 @@
 var canvas = document.getElementById('canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 var ctx = canvas.getContext('2d');
 var numSides = 25;
 var center = [0,0]
